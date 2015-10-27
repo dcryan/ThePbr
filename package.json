@@ -1,6 +1,12 @@
 {
   "name": "pbr",
   "private": true,
+  "dependencies" : {
+    "bower": "^1.3.12",
+    "express": "^4.11.1",
+    "grunt-cli": "^0.1.13",
+    "morgan": "^1.5.1"
+  },
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
     "grunt": "^0.4.5",
