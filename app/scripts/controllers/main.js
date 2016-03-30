@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name pbrApp.controller:MainCtrl
+ * @name thepbrApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the pbrApp
+ * Controller of the thepbrApp
  */
-angular.module('pbrApp')
+angular.module('thepbrApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

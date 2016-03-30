@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name pbrApp
+ * @name thepbrApp
  * @description
- * # pbrApp
+ * # thepbrApp
  *
  * Main module of the application.
  */
 angular
-  .module('pbrApp', [
+  .module('thepbrApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
