@@ -2,14 +2,14 @@
   <head>
     <title>Test App</title>
 
-    <script src="/node_modules/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="/node_modules/angular/angular.js" charset="utf-8"></script>
+    <script src="/node_modules/ui-router/release/angular-ui-router.js" charset="utf-8"></script>
 
-    <script src="/app/js/script.js" charset="utf-8"></script>
+    <script src="/app/js/router.js" charset="utf-8"></script>
 
     <link rel="stylesheet" href="/app/css/main.css" type="text/css" />
   </head>
-  <body>
-    <button type="button">click me!</button>
-    <h3></h3>
+  <body ng-app="app">
+    <div ui-view="content"></div>
   </body>
 </html>
